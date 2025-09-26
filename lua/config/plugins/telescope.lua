@@ -26,6 +26,12 @@ return{
                         ["<C-j>"] = actions.move_selection_next,
                     },
                 },
+                file_ignore_patterns = {
+                    "node_modules",
+                    "git",
+                    "target"
+                }
+
             },
             extensions = {
 
