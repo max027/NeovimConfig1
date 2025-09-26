@@ -59,6 +59,15 @@ Edit the configuration files in `~/.config/nvim/lua/`:
 - `lua/config/` - Core settings and keymaps
 - `lua/plugins/` - Plugin configurations
 
+
+# Supported Languages
+LSP support is configured for:
+- Rust
+- java
+
+
+
+Additional language servers can be added in *lua/plugins/lsp.lua*. For java python must be installed and in path.
 ## Troubleshooting
 
 ### Plugins not loading
